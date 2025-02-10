@@ -1,4 +1,4 @@
-# DeeLeeWill22's Portfolio
+# Denise Williams's Portfolio
 
 Welcome to my portfolio! I am a certified tech writer with a passion for creating clear and concise documentation. Below you will find examples of my work, including guides, tutorials, and other technical writing projects.
 
@@ -6,36 +6,44 @@ Welcome to my portfolio! I am a certified tech writer with a passion for creatin
 
 - [About Me](#about-me)
 - [Projects](#projects)
-- [Skills](#skills)
-- [Contact](#contact)
+- [Let's Connect!](#lets-connect)
 
 ## About Me
 
-I am a certified technical writer with X years of experience in creating high-quality documentation for various industries. My expertise includes:
+I am a certified technical writer with 7 years of experience in creating high-quality documentation for various industries. My expertise includes:
 
 - User guides
 - API documentation
 - Tutorials
-- Technical articles
+- Technical requirements
+- Release notes
 
 ## Projects
 
-### Project 1: User Guide for XYZ Product
-- **Description**: A comprehensive user guide for XYZ product, covering installation, configuration, and troubleshooting.
-- **Link**: [View User Guide](link-to-user-guide)
+### Project 1: API Documentation
+- **Description**: Comprehensive guide detailing how to effectively use and integrate an Application Programming Interface (API). This includes information on endpoints, methods, parameters, and authentication processes.
+- **Link**: [API Documentation](link-to-api-documentation)
 
-### Project 2: API Documentation for ABC Service
-- **Description**: Detailed API documentation for ABC service, including endpoint descriptions, request/response examples, and authentication details.
-- **Link**: [View API Documentation](link-to-api-documentation)
+### Project 2: Release Notes
+- **Description**: Detailed log of new features, enhancements, bug fixes, and other changes made in each version of a software product.
+- **Link**: [Release Notes](link-to-release-notes)
 
-## Skills
+### Project 3: FAQs
+- **Description**: A curated list of Frequently Asked Questions (FAQs) addressing common queries and concerns related to a product or service.
+- **Link**: [FAQs](link-to-faqs)
 
-- Markdown
-- Technical Writing
-- API Documentation
-- User Guides
-- Tutorials
+### Project 4: Troubleshoot using Jupyter Notebooks in AWS
+- **Description**: A comprehensive guide providing solutions and best practices for resolving common issues encountered while using Jupyter Notebooks. This resource assists users in diagnosing and fixing problems, ensuring a smoother and more efficient experience when working with interactive computational environments.
+- **Link**: [Jupyter Notebook Troubleshooting Guide](link-to-jupyter-notebook-troubleshooting-guide)
 
-## Contact
+### Project 5: Technical Requirements
+- **Description**: A document outlining the hardware, software, and system prerequisites needed to install, run, or use a particular application or service. This ensures users are aware of the necessary specifications to achieve optimal performance and compatibility, helping to prevent issues related to setup and operation.
+- **Link**: [Technical Requirements](link-to-technical-requirements)
 
-Feel free to reach out to me via email at [your-email@example.com](mailto:your-email@example.com) or connect with me on [LinkedIn](your-linkedin-profile).
+### Project 6: Public LinkedIn Article
+- **Description**: Published article discussing the ins and outs of career goals and changes.
+- **Link**: [LinkedIn Article](https://www.linkedin.com/pulse/you-playing-chess-checkers-your-career-denise-gadson?trackingId=Jcefiwo0RYW5hQWkKQHQbA%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BIGtalbGzTxK%2BrwP%2BqB3m2w%3D%3D)
+
+## Let's Connect!
+
+Feel free to reach out to me via [email](Denise.L.Williams22@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/denise-williams-blackbelt/).
