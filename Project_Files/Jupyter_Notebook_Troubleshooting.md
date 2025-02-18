@@ -14,7 +14,7 @@ A quick how-to guide for resolving common file and data issues encountered while
 1. Log into AWS using the appropriate credentials
 2. Using the application selector in the top left-hand corner, choose the S3 application:
 
-![Alt text](images/JN1.png)
+![Alt text](Portfolio/images/JN1.png)
 
 3. In the General Purpose Buckets search bar, enter the proper bucket name and click on the name:
 
