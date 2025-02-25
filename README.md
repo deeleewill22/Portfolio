@@ -46,4 +46,4 @@ I am a certified technical writer with 7 years of experience in creating documen
 
 ## Let's Connect!
 
-Feel free to reach out to me via [email](Denise.L.Williams22@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/denise-williams-blackbelt/).
+Feel free to reach out to me via email (Denise.L.Williams22@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/denise-williams-blackbelt/).
