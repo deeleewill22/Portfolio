@@ -162,8 +162,8 @@ Response:
 2. 401 Unauthorized: Authentication token is missing or invalid. For example, if the token is incorrect or expired, the API will return a 401 error.
 3. 403 Forbidden: The user lacks permissions for the requested action.
 
-Example Response for 401 Unauthorized:
-Response:
+Example response for 401 Unauthorized:
+
 ```
 {
   "status": "error",
