@@ -10,7 +10,7 @@ Welcome to my portfolio! I am a certified tech writer with a passion for creatin
 
 ## About Me
 
-I am a certified technical writer with 7 years of experience in creating high-quality documentation for various industries. My expertise includes:
+I am a certified technical writer with 7 years of experience in creating documentation for various industries. My expertise includes:
 
 - User guides
 - API documentation
