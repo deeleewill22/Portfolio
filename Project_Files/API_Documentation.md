@@ -30,7 +30,7 @@ Example: A weather app uses an API to fetch real-time weather data from a weathe
 
 Examples:
 1. REST API: ```GET https://api.example.com/v1/products``` retrieves a list of products.
-2. SOAP API:
+2. SOAP API: A SOAP request to a currency exchange API to get conversion rates.
 3. GraphQL: A client might query ```https://api.example.com/graphql``` for only the product names and prices, reducing data transfer.
 
 ## Authentication
@@ -89,18 +89,101 @@ Example: To create a new user, the request might look like:
 ```{"username": "new_user", "email": "new_user@example.com","password": "password123"}```
 
 ## Using Tokens with Endpoints
+* Purpose of Tokens: Tokens allow secure, authenticated access to specific API functions and limit unauthorized use.
+
+Example: A user logs in and receives a token for their session, used in all API requests while the session is active.
+
+* Token-Based Authentication: A token is passed in the header of each request.
+
+Example: For a request to ```GET /account-info```, you’d include ```Authorization: Bearer abc1234-token``` in the headers.
+
+* Refreshing Tokens: Tokens may expire after a set period, requiring a refresh.
+* 
+Example: ```POST /auth/refresh-token``` endpoint takes the expired token as input and provides a new token in the response.
+
+Request:
+{```"refresh_token": "expired123token"```}
+
+Response:
+{```"new_token": "new_token_456"```}
 
 
 ## Examples API Calls
+### GET Request to Retrieve Data
 
+Endpoint: ```GET /users```
+
+```
+GET /users HTTP/1.1
+Host: api.example.com
+Authorization: Bearer abc1234-token
+```
+
+Response:
+```
+[
+  {"id": 1, "name": "Alice"},
+  {"id": 2, "name": "Bob"}
+]
+```
+### POST Request to Submit Data
+
+Endpoint: ```POST /products```
+
+```
+POST /products HTTP/1.1
+Host: api.example.com
+Authorization: Bearer abc1234-token
+Content-Type: application/json
+```
+Body
+```
+{
+  "name": "Smartphone",
+  "price": 599.99,
+  "category": "Electronics"
+}
+```
+
+Response:
+```
+{
+"id": 101,
+  "name": "Smartphone",
+  "price": 599.99,
+  "category": "Electronics"
+}
+```
 
 ## Error Handling and Responses
+### Common Error Codes:
 
+1. 400 Bad Request: The server cannot process the request due to client error. If the API expects ```{"name": "product"}```, but ```{price: 29.99}``` is sent, it might return a 400 error.
+2. 401 Unauthorized: Authentication token is missing or invalid. For example, if the token is incorrect or expired, the API will return a 401 error.
+3. 403 Forbidden: The user lacks permissions for the requested action.
+
+Example Response for 401 Unauthorized:
+Response:
+```
+{
+  "status": "error",
+  "message": "Unauthorized access - token invalid or expired."
+}
+```
 
 ## Best Practices for API Security
 
+1. Token Management: Rotate tokens periodically, especially for sensitive data. For instance, tokens can be set to expire every 24 hours and implement a refresh system.
+
+2. Rate Limiting: Adhere to usage limits to prevent service interruptions and avoid throttling. If the rate limit is 100 requests/minute, a looped script might have a cooldown period to stay under the threshold.
 
 ## FAQs
+
+Q: "What should I do if my token expires?"
+A: Request a new token via the ```/auth/refresh-token``` endpoint.
+
+Q: "How do I manage multiple API requests?"
+A: Use asynchronous functions or batch requests to handle high volumes efficiently.
 
 
 [Back to Portfolio](../README.md)
