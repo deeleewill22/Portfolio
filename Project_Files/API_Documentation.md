@@ -180,10 +180,12 @@ Example response for 401 Unauthorized:
 ## FAQs
 
 Q: "What should I do if my token expires?"
-A: Request a new token via the ```/auth/refresh-token``` endpoint.
+
+  A: Request a new token via the ```/auth/refresh-token``` endpoint.
 
 Q: "How do I manage multiple API requests?"
-A: Use asynchronous functions or batch requests to handle high volumes efficiently.
+
+  A: Use asynchronous functions or batch requests to handle high volumes efficiently.
 
 
 [Back to Portfolio](../README.md)
